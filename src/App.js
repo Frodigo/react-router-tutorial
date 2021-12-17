@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
 export const App = () => {
@@ -20,6 +20,7 @@ export const App = () => {
     </Navbar>
     <Container className="mt-3">
       <h1>Hello, hello, hello</h1>
+      <Outlet/>
     </Container>
   </>
 }
