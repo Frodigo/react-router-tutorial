@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const addressBook = () => {
+export const AddressBook = () => {
     return <p>Address book will be here</p>
 }
 
-export default addressBook;
+export default AddressBook;
