@@ -19,7 +19,6 @@ export const App = () => {
       </Container>
     </Navbar>
     <Container className="mt-3">
-      <h1>Hello, hello, hello</h1>
       <Outlet/>
     </Container>
   </>
