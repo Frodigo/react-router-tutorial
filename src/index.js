@@ -30,6 +30,14 @@ ReactDOM.render(
                     <Route path=":addressId" element={<AddressDetails />} />
                 </Route>
             </Route>
+            <Route
+                path="*"
+                element={
+                    <main>
+                        <p style={{padding: '30px', textAlign: 'center'}}>There's nothing here!</p>
+                    </main>
+                }
+            />
         </Routes>
     </BrowserRouter>,
     document.getElementById('root')
