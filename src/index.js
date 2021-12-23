@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import AddressBook from './routes/AddressBook';
 import AddressDetails from './routes/AddressDetails';
+import Orders from "./routes/Orders";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -29,6 +30,7 @@ ReactDOM.render(
                     />
                     <Route path=":addressId" element={<AddressDetails />} />
                 </Route>
+                <Route path="orders" element={<Orders/>}/>
             </Route>
             <Route
                 path="*"
